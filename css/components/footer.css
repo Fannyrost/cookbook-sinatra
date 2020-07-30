@@ -1,0 +1,21 @@
+.footer{
+  height: 160px;
+  background:  #FCD159;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+
+}
+
+
+.footer a {
+  color: white;
+  padding: auto;
+
+}
+
+
+.footer a:hover {
+  color: #EF8788;
+
+}

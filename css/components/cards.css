@@ -1,0 +1,53 @@
+.cards-display{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+.card {
+  width: 290px;
+  height: 310px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px #80808075;
+
+}
+
+.card-blue:hover {
+  background: #7DDBDA;
+  color: white;
+  box-shadow: 3px 3px 4px #BFBABA;
+}
+
+.card-pink:hover{
+  background: #EF8788;
+  color: white;
+  box-shadow: 3px 3px 4px #BFBABA;
+}
+
+.card-yellow:hover {
+  background: #FCD159;
+  color: white;
+  box-shadow: 3px 3px 4px #BFBABA;
+}
+
+.card img{
+  margin: 15px;
+}
+
+
+.card p {
+  text-align: justify;
+  padding: 10px;
+}
+
+
+/*.card-category {
+  display: flex;
+  width: 500px;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+}*/

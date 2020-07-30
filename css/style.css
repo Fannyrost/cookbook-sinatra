@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Unna:wght@400;700&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/icons.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Lato;
+}
+
+h1, h2, h3, h4 {
+  font-family: Unna;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.presentation {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.presentation h1 {
+  margin: 30px;
+}
+
+
+.container {
+width :700px;
+margin: auto;
+padding-top: 200px;
+padding-left: 20px;
+padding-right: 0px;
+color: white;
+/*background: rgba(227,221,221,0.18);*/
+
+}
+
+.container h1{
+  font-size: 50px;
+  letter-spacing: 2.5px;
+  margin-bottom: 10px;
+}
+
+
+.container p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.list-style {
+  list-style : none;
+  padding: 0;
+}
+
+.list-style > li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
