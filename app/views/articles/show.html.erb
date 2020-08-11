@@ -1,6 +1,14 @@
-<h1><%= @article.title %></h1>
-<p><%= @article.created_at %></p>
-<p><%= @article.content %></p>
+  <div class="flexy">
+    <div><h1><%= @article.title %></h1></div>
+    <div class="flexybtn">
+      <div class="truc"> <%= link_to "Edit this article", edit_article_path, class: "btn" %> </div>
+      <div class="truc"> <%= link_to "Delete this article", article_path, method: :delete, data: { confirm: "Are you sure ?"}, class: "btn" %> </div>
+      <div class="truc"> <%= link_to "Back to articles", articles_path, class: "btn" %> </div>
+    </div>
+  </div>
+  <div id="article-content">
+    <p class="time" ><%= @article.created_at.to_formatted_s(:short) %></p>
+    <p><%= @article.content %></p>
+  </div>
 
-<%= link_to "Edit this article", edit_article_path %>
-<%= link_to "Delete this article", article_path, method: :delete, data: { confirm: "Are you sure ?"} %>
+

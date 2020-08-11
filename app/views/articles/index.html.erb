@@ -12,9 +12,9 @@
   <div class="card">
     <div>
       <h2> <%= article.title %> </h2>
-      <p> <%= article.content %></p>
+      <p> <%= article.content.truncate_words(70) %></p>
     </div>
-      <div id="time">
+      <div class="time">
       <p> <%= time_ago_in_words(article.created_at ) %></p>
     </div>
   </div>
