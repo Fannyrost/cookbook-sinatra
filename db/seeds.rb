@@ -14,7 +14,7 @@ Flat.delete_all
     description: Faker::Restaurant.description,
     price_per_night: rand(50...100),
     number_of_guest: rand(1..10),
-    image_source: 'https://source.unsplash.com/1600x900/?appartment'
+    image_source: 'https://source.unsplash.com/1200x600/?appartment'
     )
   flat.save!
 end
