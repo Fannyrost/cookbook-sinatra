@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+10.times do
+  flat = Flat.new(
+    name: Faker::Address.community,
+    address: Faker::Address.street_address,
+    description: Faker::Restaurant.description,
+    price_per_night: rand(50...100),
+    number_of_guest: rand(1..10),
+    )
+  flat.save!
+end
