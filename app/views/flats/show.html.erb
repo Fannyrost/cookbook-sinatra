@@ -1,26 +1,38 @@
-<div class="backg-img">
-
+<div class="blob">
+  <img src='<%= @flat.image_source %>'  alt="">
 </div>
-<div id="flexing">
-  <div class="main">
-    <div class="flat-content">
-      <h1><%= @flat.name %></h1>
-      <p><%= @flat.address %></p>
-    </div>
-    <div class="flat-content">
-      <p><%= @flat.description %></p>
-    </div>
-  </div>
-  <div class="second">
-    <div class="book">
 
+<div class="container">
+  <div id="flexing">
+    <div class="main">
+      <div class="flat-content">
+        <h1><%= @flat.name %></h1>
+        <p><%= @flat.address %></p>
+      </div>
+      <div class="flat-content">
+        <p><%= @flat.description %></p>
+      </div>
     </div>
-    <div class="details">
-      <p><%= @flat.number_of_guest %></p>
-      <p><%= @flat.price_per_night %></p>
-    </div>
-    <div class="share-links">
+    <div class="second">
+      <div class="flat-content">
 
+      </div>
+      <div class="flat-content ">
+        <h2>Details</h2>
+        <div id="flexing">
+          <div>
+            <p><i class="fas fa-user-friends"></i></p>
+            <p><%= @flat.number_of_guest %></p>
+          </div>
+          <div>
+            <p><i class="fas fa-money-bill-wave-alt"></i></p>
+            <p><%= @flat.price_per_night %></p>
+          </div>
+        </div>
+      </div>
+      <div class="flat-content">
+
+      </div>
     </div>
   </div>
 </div>
