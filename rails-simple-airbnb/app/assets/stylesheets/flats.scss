@@ -1,0 +1,176 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+
+
+
+
+
+.navbar {
+  // width: 100vw;
+  height: 30px;
+  margin: 0;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #f4f6ff;
+  position: sticky;
+  top: 0;
+}
+
+
+.navbar h3 {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-yellow a {
+  margin: 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  border: 1px solid #ffcb74;
+  color: #ffcb74;
+}
+
+.btn-yellow a:hover {
+  border: 1px solid #ffcb74;
+  background: #ffcb74;
+  color: #f4f6ff;
+}
+
+
+.cards-display {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  background:  #f4f6ff;
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+
+}
+
+.card-content {
+  padding: 10px;
+  border-bottom: 0.3px solid lightgrey;
+}
+
+.flexy {
+  background: white;
+  display: flex;
+  justify-content: start;
+  padding: 15px 5px;
+}
+
+.btns {
+  margin: 5px;
+  font-weight: 400;
+}
+
+.yellow a {
+  color: #ffcb74;
+}
+
+.yellow a:hover {
+  color: #ffcb74;
+  text-decoration: underline;
+}
+
+.pink a {
+  color: #ea907a;
+}
+
+.pink a:hover {
+  color: #ea907a;
+  text-decoration: underline;
+}
+
+
+.green a {
+  color: #4f8a8b;
+}
+
+.green a:hover {
+  color: #4f8a8b;
+  text-decoration: underline;
+}
+
+#flexing {
+  display: flex;
+  justify-content: space-between;
+  position : relative;
+  top: -90px;
+}
+
+
+
+.second {
+  width: 300px;
+  margin-left: 20px;
+}
+
+
+.flat-content {
+  background:  #f4f6ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.card img {
+  width: 280px;
+  background-size: cover;
+}
+
+.blob img {
+  width: 100%;
+  height: 400px;
+
+}
